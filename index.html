@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movie Giphy</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1"></span>
+    <form class="form-inline my-2 my-lg-0" id="Search">
+            <label for="input" id="instructions">Search for your favorite movies!</label>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search" id="input">
+            <button class="btn btn-success" type="submit" id="addTopic">Search</button>
+          </form>
+        </div>
+</nav>
+
+<div class="container">
+        <div class="row">
+            <div class="btn-group">
+      <button class="btn btn-danger" id="topic" data-search="The Incredibles">The Incredibles</button>
+      <button class="btn btn-danger" id="topic" data-search="Space Jam">Space Jam</button>
+      <button class="btn btn-danger" id="topic" data-search="Dodgeball Movie">Dodgeball</button>
+      <button class="btn btn-danger" id="topic" data-search="Lion King Movie">Lion King</button>
+
+
+      <div id="myButtons" class="btn-group"></div>
+    </div>
+  </div>
+</div>
+    
+
+<div class="container">
+    <div class="row">
+      <span><div id="gif"></div></span>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>
