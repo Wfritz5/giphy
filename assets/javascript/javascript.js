@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    //search
+    //search topics
     var topics = [];
   
        function display() {
     
-      var searchBar = $(this).data("search");
-      console.log(searchBar);
+      var search = $(this).data("search");
+      console.log(search);
     //adding the queryURL
-      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchBar + "&api_key=dc6zaTOxFJmzC&limit=10";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=dc6zaTOxFJmzC&limit=10";
     //test for results
       console.log(queryURL);
     //sending a GET ajax call to the queryURL
