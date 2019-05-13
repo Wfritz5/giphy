@@ -18,7 +18,7 @@ $(document).ready(function() {
               var results = response.data;
               console.log(results);
               for (var i = 0; i < results.length; i++) {
-              
+              console.log(response.length);
               var selection = $("<div class='col-md-4'>");
     //assigning results to search for ratings
               var rating = results[i].rating;
@@ -26,6 +26,7 @@ $(document).ready(function() {
               var still = results[i].images.fixed_height_still.url;
               var image = $("<img>");
               var ratingResult = $("<p>").text("Rating: " + rating);
+              console.log("hi");
 
 
     //adding classes to play and pause the GIF animations
